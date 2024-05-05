@@ -32,7 +32,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #reading the dataframe:
 csv_file_path = os.path.join(encoded_path, "Rest_Areas.csv")
-rest_areas = pd.read_csv(csv_file_path)
+rest_areas = pd.read_csv("https://raw.githubusercontent.com/aszenas/newagain/main/Rest_Areas.csv")
 
 #[DA1]:
 rest_areas.dropna(inplace=True)
